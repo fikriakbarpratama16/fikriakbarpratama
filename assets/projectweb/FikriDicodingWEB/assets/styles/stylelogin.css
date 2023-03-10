@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+
+
+body {
+    background: rgb(216, 220, 223);
+    font-family: "Quicksand", sans-serif;
+  }
+  .login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+  }
+  /* Reset top and bottom margins from certain elements */
+  .login-header,
+  .login p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .login-header {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .login-container {
+    background: #ebebeb;
+    padding: 12px;
+  }
+  /* Every row inside .login-container is defined with p tags */
+  .login p {
+    padding: 12px;
+  }
+  .login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  .login input[type="email"],
+  .login input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  /* Text fields' focus effect */
+  .login input[type="email"]:focus,
+  .login input[type="password"]:focus {
+    border-color: #888;
+  }
+  .login input[type="button"] {
+    background: rgb(0, 0, 0);
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .login input[type="button"]:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+  }
+  /* Buttons' focus effect */
+  .login input[type="button"]:focus {
+    border-color: #05a;
+  }
+
+  
